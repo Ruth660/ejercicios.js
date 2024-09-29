@@ -34,6 +34,7 @@ if (dineroDisponible >= precioConDescuento) {
 }
 
 }
+canBuyProduct();
 
 // Variables
 // 5. Crea una variable llamada `mensaje` y asígnale el valor "Hola JavaScript", luego imprime la variable en consola.
@@ -56,7 +57,7 @@ function createDisabledConstant() {
     console.log (IS_DISABLED); // imprimimos 
 }
  
-createDisabledConstant();
+createDisabledConstant(); // llamando a la función
 
 // Null y Undefined
 // 8. Crea una variable con `let` llamada `capacidad` y asígnale un valor `null`, luego imprime la variable en consola.
@@ -64,7 +65,7 @@ function createNullVariable() {
     let capacidad = null // creamos la variable capacidad 
     console.log (capacidad); // imprimimos 
 }
-createNullVariable(); // ñllamando a la función
+createNullVariable(); // llamando a la función
 
 // 9. Crea una variable con `let` llamada `dinero` y asígnale un valor `undefined`, luego imprime la variable en consola.
 function createUndefinedVariable() {
